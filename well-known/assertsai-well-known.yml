@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: probed /.well-known/* on Asserts.ai hosts
+note: >-
+  No .well-known discovery documents are published. Asserts.ai was acquired by
+  Grafana Labs (Nov 2023); the standalone site and app hosts now redirect or are
+  offline. Empty result is expected and valid.
+hosts:
+- host: https://www.asserts.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 301}
+  - {path: /.well-known/oauth-authorization-server, status: 301}
+  - {path: /.well-known/api-catalog, status: 301}
+  - {path: /.well-known/ai-plugin.json, status: 301}
+- host: https://asserts.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 302}
+  - {path: /.well-known/openid-configuration, status: 302}
+- host: https://docs.asserts.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 301}
+- host: https://app.asserts.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 000, note: host unreachable}

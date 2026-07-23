@@ -1,22 +1,84 @@
 aid: assertsai
 name: Asserts.ai
-description: Asserts.ai is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Asserts.ai is an observability intelligence platform for Prometheus and
+  OpenTelemetry that automatically models the entities in your infrastructure
+  and application metrics, applies golden-signal and SLO PromQL rules to surface
+  anomalies, and correlates related failures into root-cause workbenches to cut
+  mean-time-to-resolution. It also ships a Data Distiller for reducing metric
+  cardinality and observability cost. Asserts was acquired by Grafana Labs in
+  November 2023 and is now delivered as part of Grafana Cloud; its standalone
+  website, docs, and GitHub organization are archived and no longer maintained.
 url: https://raw.githubusercontent.com/api-evangelist/assertsai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+x-acquired-by: Grafana Labs
+x-acquisition-date: '2023-11'
+x-status: acquired
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.ghost.io/c/00/4c/004c629c-fae8-4899-adc3-1d46a93ea53e/content/images/2023/04/Share-1.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Observability
+- Monitoring
+- Prometheus
+- OpenTelemetry
+- Metrics
+- SRE
+- Root Cause Analysis
+- Grafana
 apis: []
+common:
+- type: DomainSecurity
+  url: security/assertsai-domain-security.yml
+- type: Website
+  name: Asserts.ai Website
+  url: https://www.asserts.ai/
+- type: Documentation
+  name: Asserts Documentation (Grafana Cloud)
+  url: https://grafana.com/docs/grafana-cloud/monitor-applications/asserts/
+- type: Blog
+  name: Asserts Blog
+  url: https://www.asserts.ai/blog/
+- type: BlogRSS
+  name: Asserts Blog RSS
+  url: https://www.asserts.ai/blog/rss/
+- type: GitHubOrganization
+  name: Asserts on GitHub (archived)
+  url: https://github.com/asserts
+- type: TermsOfService
+  name: Terms of Service
+  url: https://policies.asserts.ai/terms-of-service
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://policies.asserts.ai/privacy-policy
+- type: LLMsTxt
+  name: Generated llms.txt
+  url: llms/assertsai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

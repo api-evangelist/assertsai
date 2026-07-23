@@ -1,0 +1,21 @@
+{
+  "repo": "assertsai",
+  "feeds": [
+    {
+      "source": "https://grafana.com/docs/grafana-cloud/monitor-applications/asserts/",
+      "feed_url": "https://grafana.com/docs/grafana-cloud/monitor-applications/asserts/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.asserts.ai/blog/",
+      "feed_url": "https://www.asserts.ai/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
