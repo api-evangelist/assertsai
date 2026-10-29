@@ -64,6 +64,49 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Asserts.ai is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: a16z
+Asserts.ai is an observability intelligence platform for Prometheus and OpenTelemetry that automatically models the entities in your infrastructure and application metrics, applies golden-signal and SLO PromQL rules to surface anomalies, and correlates related failures into root-cause workbenches to cut mean-time-to-resolution. It also ships a Data Distiller for reducing metric cardinality and observability cost. Asserts was acquired by Grafana Labs in November 2023 and is now delivered as part of Grafana Cloud; its standalone website, docs, and GitHub organization are archived and no longer maintained.
+
+**Areas:** Company · Observability · Monitoring · Prometheus · OpenTelemetry · Metrics · SRE · Root Cause Analysis · Grafana
+
+## Asserts.ai on APIs.io (historical record)
+
+Everything profiled for Asserts.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/assertsai/](https://apis.io/providers/assertsai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Assertsai Domain Security](https://apis.io/security/assertsai/assertsai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.asserts.ai/)
+- [Documentation](https://grafana.com/docs/grafana-cloud/monitor-applications/asserts/)
+- [Blog](https://www.asserts.ai/blog/)
+- [Terms of service](https://policies.asserts.ai/terms-of-service)
+- [Privacy policy](https://policies.asserts.ai/privacy-policy)
+- [GitHub](https://github.com/asserts)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Asserts.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/assertsai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
